@@ -6,3 +6,7 @@ Simple deck randomizer to increase replayability.
 - using affinity, card type, deck size limit
 
 ### Randomize 60 cards for the team to mix and match
+
+### Pack style drawing
+- team opens a pack of 5 cards, each player chooses one until everyone has chosen
+- repeat until deck limit is reached
