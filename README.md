@@ -13,3 +13,6 @@ Deck randomizer to increase replayability.</br>
 ### Pack style drawing
 - team opens a pack of 5 cards, each player chooses one until everyone has chosen
 - repeat until deck limit is reached
+
+### Streamer Pack Stlye Drawing
+- viewers get to vote which card to choose for the streamer in each pack.
