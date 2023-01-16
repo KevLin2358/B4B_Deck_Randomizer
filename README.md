@@ -1,5 +1,5 @@
 ﻿# B4B_Deck_Randomizer
-Simple deck randomizer to increase replayability.
+Deck randomizer to increase replayability.
 
 ## Future Features
 ### Allow for customizing what type of cards and the amount the randomizer will pull from
