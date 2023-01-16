@@ -5,9 +5,9 @@ Deck randomizer to increase replayability.</br>
 ## Future Features
 ### Allow for customizing what type of cards and the amount the randomizer will pull from
 - using affinity, card type, deck size limit, keywords</br>
--ex.</br>
-- 4 reflex, 5 discipline, 6 fortune
-- 2 "scavenger" (rest is random)
+- ex.</br>
+  - 4 reflex, 5 discipline, 6 fortune
+  - 2 "scavenger" (rest is random)
 
 
 
