@@ -1,6 +1,6 @@
 ﻿# B4B_Deck_Randomizer
 Deck randomizer to increase replayability.
-*Only for players that have unlocked all cards. If only one person has expansions, the cards that will be randomized will only be the standard base game cards. 
+*Only for players that have unlocked all cards. If only one person has expansions, the cards that will be randomized will only be the standard base game cards.*
 
 ## Future Features
 ### Allow for customizing what type of cards and the amount the randomizer will pull from
