@@ -903,6 +903,106 @@ const card_data = {
         // expansion: "Standard",
         // info:["Mutation: Mutations are Special Ridden that are distinct from Common Ridden.",],
     },
+    101: {
+        name:"Knowledge is Power",
+        // effect:"+ 10% Weakspot Damage \n Allows players to see values for damage they deal and enemy health bars.",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Utility",
+        // expansion: "Standard",
+        // info:["Weakspot: Most enmies have Weakspots that take extra damage when hit.",],
+    },
+
+    102: {
+        name:"Tactical Vest",
+        // effect:"+ 30% Rifle Ammo Capacity \n + 10% Damage with Assault Rifles and LMGs",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Offense",
+        // expansion: "Standard",
+        // info:[],
+    },
+
+    103: {
+        name:"Experienced EMT",
+        // effect:"When you use a Medical Accessory, the target gains + 10% Maximum Health, Stamina and Stamina Regen until the end of the level.,
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Defense",
+        // expansion: "Standard",
+        // info:[],
+    },
+
+    104: {
+        name:"Weaponsmith",
+        // effect:"Allows the ability to unbolt attachments from weapons outside of Saferooms. Unbolting attachments costs 400 Copper.",
+        // team_effects:"Additional copies of Weaponsmith played reduce its cost by 100 copper.",
+        // affinity: "Discipline",
+        // card_type: "Utility",
+        // expansion: "Tunnels of Terror",
+        // info:["Team Effect: This card applies to you and your teammates.",],
+    },
+
+    105: {
+        name:"Over-Protective",
+        // effect:"When a teammate within 15 meters receives 5 or more damage, gain 20% increased Damage for 5 seconds.",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Offense",
+        // expansion: "Tunnels of Terror",
+        // info:[],
+    },
+
+    106: {
+        name:"Experimental Stun Gun",
+        // effect:"Enhances Bash to stun nearby enemies. Refreshes after 10 seconds. \n Gadget Cost: 30 Sniper Ammo \n REPLACES: Quick Slot, FRAGILE",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Utility",
+        // expansion: "Children of the Worm",
+        // info:["Gadget: Replaces an accessory slot with an activatable ability that costs ammo to use. Cooldown, cost and effects stack for every Gadget occupying the same slot.","Fragile: Effects removed after receiving damage."],
+    },
+
+    107: {
+        name:"Crippling Frequency",
+        // effect:"Reduce incoming Damage by 1 for nearby teammates for 7 seconds. \n Gadget Cost: 30 SMG Ammo \n REPLACES: Offensive Slot",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Defense",
+        // expansion: "Children of the Worm",
+        // info:["Gadget: Replaces an accessory slot with an activatable ability that costs ammo to use. Cooldown, cost and effects stack for every Gadget occupying the same slot.",],
+    },
+
+    108: {
+        name:"Expired T5",
+        // effect:"Create a powerful blast that deals 20 Fire Damage to Weakspots. After the initial blast, continue to deal 1 damage per second for 7 seconds. \n Gadget Cost: 75 Rifle Ammo \n Replaces: Support Slot",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Offense",
+        // expansion: "Children of the Worm",
+        // info:["Gadget: Replaces an accessory slot with an activatable ability that costs ammo to use. Cooldown, cost and effects stack for every Gadget occupying the same slot.","Weakspot: Most enmies have Weakspots that take extra damage when hit.",],
+    },
+
+    109: {
+        name:"Sonic Disruptor",
+        // effect:"Emit a pulse that deals heavy Stumble damage to nearby enemies and has a chance to knock off armor. \n Gadget Cost: 75 SMG Ammo \n REPLACES: Offensive Slot",
+        // team_effects:"",
+        // affinity: "Discipline",
+        // card_type: "Defense",
+        // expansion: "River of Blood",
+        // info:["Gadget: Replaces an accessory slot with an activatable ability that costs ammo to use. Cooldown, cost and effects stack for every Gadget occupying the same slot.","Stumble: Stumble is a special damage type that builds up and interrupts enemies.",],
+    },
+
+    110: {
+        name:"Hazmat Specialist",
+        // effect:"+ 35% Acid Resistance \n Your Bait Jars do direct damage to targets and can hit Weakspots.",
+        // team_effects:"Killing Mutations that are covered with Bait has a 75% chance to create another Bait Jar.",
+        // affinity: "Discipline",
+        // card_type: "",
+        // expansion: "River of Blood",
+        // info:["Team Effect: This card applies to you and your teammates.","Weakspot: Most enmies have Weakspots that take extra damage when hit.","Mutation: Mutations are Special Ridden that are distinct from Common Ridden.",],
+    },
+
 
 
     // : {
