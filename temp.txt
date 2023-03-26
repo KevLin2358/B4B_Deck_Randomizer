@@ -7,6 +7,7 @@
 "Mutation: Mutations are Special Ridden that are distinct from Common Ridden.",
 "Precision Kill: Precision Kills trigger by getting a killing blow to a Weakspot.",
 "Resistance: Reduces incoming damage (max: 90%).",
+"Saferoom: Effects that trigger in each Saferoom don't apply to transitioning to special levels, like Ridden Hives.",
 "Stumble: Stumble is a special damage type that builds up and interrupts enemies.",
 "Team Effect: This card applies to you and your teammates.",
 "Temporary Health: Temporary Health is Health that will steadily deplete, even when not taking damage.",
