@@ -1,22 +1,33 @@
-const cardData = require("./src/scripts/card.js");
+const cardData = require("./card");
 
-function randomizer(cardLimit = 1){
-    let random_arr = [];
+function randomizer(cardData, cardLimit) {
+    let randomArr = [];
     let deck = [];
     
-    for(let i = 0; i < cardLimit; i++){
-        const card_data_length = Object.keys(cardData).length;
-        let random = Math.floor(Math.random() * (card_data_length + 1));
+    for (let i = 0; i < cardLimit; i++) {
 
-        while(random_arr.includes(random) || random === 0){
-            random = Math.floor(Math.random() * (card_data_length + 1)); 
+        const cardDataLength = Object.keys(cardData).length;
+        let random = Math.floor(Math.random() * (cardDataLength + 1));
+
+        while (randomArr.includes(random) || random === 0){
+            random = Math.floor(Math.random() * (cardDataLength + 1)); 
         }
 
-        random_arr.push(random);
+        randomArr.push(random);
         const card = cardData[random];
         deck.push(card.name);
     }
     return deck;
 }
 
-// console.log(randomizer(15))
+
+function packRandomizer(cardData) {
+    const numberOfPacks = 15;
+    const draw = 5;
+
+
+}
+
+
+
+console.log(randomizer(cardData, 15))
