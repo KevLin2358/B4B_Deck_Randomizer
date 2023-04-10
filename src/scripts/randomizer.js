@@ -1,4 +1,4 @@
-const cardData = require("./card.js");
+const cardData = require("../database/card");
 
 function randomizer(cardLimit = 1) {
     let randomArr = [];
