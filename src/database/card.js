@@ -144,7 +144,7 @@ const card_data = {
         info:["",],
     },
     17: {
-        name:"Cuns Out",
+        name:"Guns Out",
         effect:"+50% Weapon Swap Speed \n -5% Damage Resistance",
         team_effects:"",
         affinity: "Reflex",
@@ -342,7 +342,7 @@ const card_data = {
         info:["",],
     },
     39: {
-        name:"Class Cannon",
+        name:"Glass Cannon",
         effect:"+25% Damage \n-30% Health",
         team_effects:"",
         affinity: "Reflex",

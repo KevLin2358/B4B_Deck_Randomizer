@@ -1,11 +1,12 @@
-const cardData = require("./card.js");
+const cardData = require("../database/card");
 
-function randomizer(cardLimit = 1) {
+function randomizer(cardLimit = 1, cardPacks = 1) {
     let randomArr = [];
     let deck = [];
     const card_data_length = Object.keys(cardData).length;
+    const cards = cardLimit * cardPacks;
 
-    for(let i = 0; i < cardLimit; i++){
+    for(let i = 0; i < cards; i++){
         let random = Math.floor(Math.random() * (card_data_length + 1));
 
         while(randomArr.includes(random) || random === 0){
@@ -20,8 +21,24 @@ function randomizer(cardLimit = 1) {
     return deck;
 }
 
-function randomizerPack(packLimit = 15) {
+function createPacks(cards) {
+    let packs = []
 
+    for (let i = 0; i < 15; i++) {
+        packs[i] = []
+    }
+
+    for (let i = 0; i < cards.length; i++) {
+        packs[i % 15].push(cards[i])
+    }
+
+    return packs
 }
 
-console.log(randomizer(15))
+function playerPrompt(packs) {
+    let userPrompt = prompt("Choose a number between 1 - 5 to add your card: ")
+}
+
+let cards = randomizer(5, 15)
+console.log(createPacks(cards))
+// console.log(playerPrompt(cards))
